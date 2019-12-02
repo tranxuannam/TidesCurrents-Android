@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/home/namtx/java/mxtide-android/mxtide/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "mxtide-Debug-x86_64": {
+      "artifactName": "mxtide",
+      "buildCommand": "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/x86_64 --target mxtide",
+      "abi": "x86_64",
+      "output": "/home/namtx/java/mxtide-android/mxtide/build/intermediates/cmake/debug/obj/x86_64/libmxtide.so"
+    },
+    "xtide-Debug-x86_64": {
+      "artifactName": "xtide",
+      "buildCommand": "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/x86_64 --target xtide",
+      "abi": "x86_64",
+      "output": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/x86_64/libxtide.a"
+    },
+    "tcd-Debug-x86_64": {
+      "artifactName": "tcd",
+      "buildCommand": "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/x86_64 --target tcd",
+      "abi": "x86_64",
+      "output": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/x86_64/libtcd.a"
+    }
+  }
+}

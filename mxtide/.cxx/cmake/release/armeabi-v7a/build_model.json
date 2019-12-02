@@ -1,0 +1,76 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/namtx/java/mxtide-android",
+      "sdkFolder": "/home/namtx/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/namtx/java/mxtide-android/mxtide/build/intermediates",
+      "gradleModulePathName": ":mxtide",
+      "moduleRootFolder": "/home/namtx/java/mxtide-android/mxtide",
+      "makeFile": "/home/namtx/java/mxtide-android/mxtide/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/namtx/java/mxtide-android/.cxx",
+      "cxxFolder": "/home/namtx/java/mxtide-android/mxtide/.cxx",
+      "ndkFolder": "/home/namtx/Android/Sdk/ndk/20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared",
+      "-DANDROID_TOOLCHAIN\u003dclang",
+      "-DANDROID_PLATFORM\u003dandroid-23"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++1z -frtti -fexceptions"
+    ],
+    "variantName": "release",
+    "soFolder": "/home/namtx/java/mxtide-android/mxtide/build/intermediates/cmake/release/lib",
+    "objFolder": "/home/namtx/java/mxtide-android/mxtide/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 23,
+  "cxxBuildFolder": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a",
+  "jsonFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/home/namtx/java/mxtide-android/mxtide/build/intermediates/cmake/release/obj/armeabi-v7a",
+  "buildCommandFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cxx/release/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/compile_commands.json"
+}

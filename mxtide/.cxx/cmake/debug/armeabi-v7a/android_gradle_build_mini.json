@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/home/namtx/java/mxtide-android/mxtide/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "mxtide-Debug-armeabi-v7a": {
+      "artifactName": "mxtide",
+      "buildCommand": "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/armeabi-v7a --target mxtide",
+      "abi": "armeabi-v7a",
+      "output": "/home/namtx/java/mxtide-android/mxtide/build/intermediates/cmake/debug/obj/armeabi-v7a/libmxtide.so"
+    },
+    "xtide-Debug-armeabi-v7a": {
+      "artifactName": "xtide",
+      "buildCommand": "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/armeabi-v7a --target xtide",
+      "abi": "armeabi-v7a",
+      "output": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/armeabi-v7a/libxtide.a"
+    },
+    "tcd-Debug-armeabi-v7a": {
+      "artifactName": "tcd",
+      "buildCommand": "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/armeabi-v7a --target tcd",
+      "abi": "armeabi-v7a",
+      "output": "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/armeabi-v7a/libtcd.a"
+    }
+  }
+}

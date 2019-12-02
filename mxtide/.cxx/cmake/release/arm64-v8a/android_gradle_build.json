@@ -1,0 +1,417 @@
+
+{
+	"buildFiles" : [ "/home/namtx/java/mxtide-android/mxtide/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"mxtide-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "mxtide",
+			"buildCommand" : "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a --target mxtide",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/Location.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/Station.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/TidesAndCurrents.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/Jni.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/JniArrayList.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/JniFloat.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/JniStation.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/JniStationPrediction.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/JniString.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dmxtide_EXPORTS -I../../../../src/main/cpp/include -I../../../../../mxtide-core/src/main/cpp/include -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide/src/main/cpp/JniTidesAndCurrents.cpp",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/namtx/java/mxtide-android/mxtide/build/intermediates/cmake/release/obj/arm64-v8a/libmxtide.so",
+			"toolchain" : "2897253457867849790"
+		},
+		"tcd-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "tcd",
+			"buildCommand" : "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a --target tcd",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/tcd/tide_db.c",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/tcd/bit_pack.c",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a/libtcd.a",
+			"toolchain" : "2897253457867849790"
+		},
+		"xtide-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "xtide",
+			"buildCommand" : "/home/namtx/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a --target xtide",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Amplitude.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Angle.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Banner.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Calendar.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/CalendarFormC.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/CalendarFormH.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/CalendarFormL.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/CalendarFormNotC.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/CalendarFormT.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/ClientSideFont.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Colors.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Constituent.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/ConstituentSet.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Coordinates.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/CurrentBearing.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Date.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Dstr.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Global.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Graph.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/HarmonicsFile.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/HarmonicsPath.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Interval.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/MetaField.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Nullable.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/NullableInterval.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/NullablePredictionValue.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Offsets.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/PixelatedGraph.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/PredictionValue.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/RGBGraph.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Settings.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Skycal.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Speed.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Station.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/StationIndex.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/StationRef.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/SubordinateStation.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/SVGGraph.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/tide.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/TideEvent.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/TideEventsOrganizer.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Timestamp.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/TTYGraph.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Units.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/xml_l.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/xml_y.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/Year.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android23 --gcc-toolchain=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -I/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib -I../../../../src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++1z -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/namtx/java/mxtide-android/mxtide-core/src/main/cpp/lib/xtide/ZoneIndex.cc",
+					"workingDirectory" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/arm64-v8a/libxtide.a",
+			"toolchain" : "2897253457867849790"
+		}
+	},
+	"toolchains" : 
+	{
+		"2897253457867849790" : 
+		{
+			"cCompilerExecutable" : "/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/namtx/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

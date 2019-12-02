@@ -1,0 +1,5 @@
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/arm64-v8a/CMakeFiles/mxtide.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/arm64-v8a/CMakeFiles/xtide.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/debug/arm64-v8a/CMakeFiles/tcd.dir

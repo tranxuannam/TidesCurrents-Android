@@ -1,0 +1,5 @@
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/CMakeFiles/mxtide.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/CMakeFiles/xtide.dir
+/home/namtx/java/mxtide-android/mxtide/.cxx/cmake/release/armeabi-v7a/CMakeFiles/tcd.dir

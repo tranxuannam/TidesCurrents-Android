@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_measure_units_title">
+        <ListPreference
+            android:key="@string/PREF_KEY_TIDE_LEVEL"
+            android:title="@string/title_tide_level"
+            android:summary="%s"
+            android:entries="@array/measure_units_level_entries"
+            android:entryValues="@array/MEASURE_UNITS_LEVEL_VALUES"
+            android:defaultValue="@string/METRIC"
+            android:dialogTitle="@string/title_tide_level" />
+
+        <ListPreference
+            android:key="@string/PREF_KEY_CURRENT_SPEED"
+            android:title="@string/title_current_level"
+            android:summary="%s"
+            android:entries="@array/measure_units_speed_entries"
+            android:entryValues="@array/MEASURE_UNITS_SPEED_VALUES"
+            android:defaultValue="@string/METRIC"
+            android:dialogTitle="@string/title_current_level" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_measure_location_title">
+        <ListPreference
+            android:key="@string/PREF_KEY_LOCATION"
+            android:title="@string/location_title"
+            android:summary="%s"
+            android:entries="@array/location_entries"
+            android:entryValues="@array/location_entries"
+            android:defaultValue="@string/location_device"
+            android:dialogTitle="@string/location_title"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/PREF_KEY_INSTALL_CAT"
+        android:title="@string/instant_app">
+        <Preference
+            android:key="@string/PREF_KEY_INSTALL"
+            android:title="@string/installation"
+            android:summary="@string/install_app"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
